@@ -1,8 +1,8 @@
 name: Schedule Job
 
-on:
-  schedule:
-    - cron: "0 0 * * *"  # "min hr year month day"
+# on:
+  # schedule:
+  #   - cron: "0 0 * * *"  # "min hr year month day"
 jobs:
   run-script:
     runs-on: ubuntu-latest
